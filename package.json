@@ -15,6 +15,6 @@
   "license": "ISC",
   "devDependencies": {
     "tap": "^14.11.0",
-    "@gvhinks/wiby": "0.0.5-development"
+    "@gvhinks/wiby": "0.0.6-development"
   }
 }
