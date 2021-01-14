@@ -184,7 +184,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.WIBY_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          DEBUG: 'wiby:result'
+          DEBUG: 'wiby:*'
         id: wiby_result
 
       - name: Handle errors
